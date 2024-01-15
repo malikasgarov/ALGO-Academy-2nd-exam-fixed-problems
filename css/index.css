@@ -1,0 +1,219 @@
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf)
+}
+.opac{
+    opacity: 0.2;
+}
+
+.exx {
+    color: green;
+}
+header a:hover{
+    color: green;
+}
+body,
+html {
+    font-weight: bold;
+    font-family: raleway;
+    height: 100%;
+    margin: 0;
+}
+
+div.dropdown>a {
+    color: white;
+}
+
+header {
+    justify-content: space-between;
+    z-index: 1;
+    display: flex;
+    padding: 16px;
+    position: fixed;
+    height: 54px;
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: darkblue;
+}
+div.right{
+    margin: 0;
+}
+div.right > a{
+    margin: 0;
+}
+
+header>a>img {
+    height: 32px;
+    width: 130px;
+    margin-left: 34px;
+}
+
+img.asd {
+    margin: 0;
+    height: 32px;
+    width: 132px;
+}
+
+* {
+    box-sizing: border-box;
+}
+p.light{
+    opacity: 0.29;
+}
+div.margin{
+    text-align: center;
+    margin: 16px;
+}
+
+header>div>a {
+
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+p.green {
+    color: green;
+}
+
+div.p {
+    margin-left: 32px;
+    margin-right: 32px;
+
+}
+
+div.offer {
+    margin: 54px;
+    display: flex;
+}
+
+header>a>img {
+    margin-left: 30px;
+    width: 30px;
+    margin: 8px;
+}
+
+div.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+div.list {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+div.list a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.list a:hover {
+    color: green;
+}
+.list a {
+background-color: darkblue;
+}
+.dropdown:hover .list {
+    display: block;
+}
+
+.dropdown:hover>a {
+    color: green;
+}
+@media (max-width: 1000px) {
+    .offer {
+        flex-wrap: wrap;
+    }
+}
+.bg {
+    margin-top: 54px;
+    text-align: center;
+    background-image: url("../images/malik.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.icon {
+    display: flex;
+    gap: 32px;
+}
+
+div.bir {
+    margin-left: 100px;
+}
+
+div.uc {
+    margin-right: 100px;
+}
+div.center {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.center a {
+    border: 2px solid rgb(101, 233, 101);
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: rgb(101, 233, 101);
+    color: white;
+    padding: 8px 16px;
+}
+
+div.center h1 {
+    font-size: 54px;
+    margin: 0px;
+}
+ul{
+    opacity: 0.29;
+    list-style-type: square;
+}
+div.bord{
+    border-radius: 8px;
+    border: 1px solid lightgray;
+}
+div.bord img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+div.center a:hover {
+    background: none;
+    color: rgb(101, 233, 101);
+    border: 2px solid rgb(101, 233, 101);
+}
+.gree{
+    color: lightgreen;
+}
+div.service p{
+    font-weight: bold;
+}
+div.service{
+    margin-bottom: 32px;
+    text-align: center;
+}
+div.service h2{
+margin: 0;
+}
+div.h2 h2{
+    margin: 0;
+}
+div.pic img{
+   width: 100%;
+}
+div.pic{
+    margin: 0px 100px;
+    gap: 20px;
+    display: flex;
+}
