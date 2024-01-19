@@ -5,6 +5,10 @@
 .opac{
     opacity: 0.2;
 }
+.ex{
+    text-decoration: none;
+}
+
 
 .exx {
     color: green;
@@ -28,13 +32,16 @@ header {
     justify-content: space-between;
     z-index: 1;
     display: flex;
-    padding: 16px;
+    padding: 12px;
     position: fixed;
     height: 54px;
     right: 0;
     top: 0;
     left: 0;
-    background-color: darkblue;
+    background-color: #113448;
+}
+span.asa > p{
+    opacity: 0.49;
 }
 div.right{
     margin: 0;
@@ -67,17 +74,20 @@ div.margin{
 }
 
 header>div>a {
-
     color: white;
-    padding: 8px 16px;
+    padding: 8px 12px;
     text-decoration: none;
 }
 
 p.green {
     color: green;
 }
+span.green{
+    color: #14bf98;
+}
 
 div.p {
+    flex: 3;
     margin-left: 32px;
     margin-right: 32px;
 
@@ -119,7 +129,7 @@ div.list a {
     color: green;
 }
 .list a {
-background-color: darkblue;
+background-color: #113448;
 }
 .dropdown:hover .list {
     display: block;
@@ -131,6 +141,7 @@ background-color: darkblue;
 @media (max-width: 1000px) {
     .offer {
         flex-wrap: wrap;
+        flex-flow: column-reverse;
     }
 }
 .bg {
@@ -163,12 +174,12 @@ div.center {
 }
 
 div.center a {
-    border: 2px solid rgb(101, 233, 101);
-    border-radius: 8px;
+    border: 2px solid #14bf98;
+    border-radius: 4px;
     text-decoration: none;
-    background-color: rgb(101, 233, 101);
+    background-color: #14bf98;
     color: white;
-    padding: 8px 16px;
+    padding: 12px 20px;
 }
 
 div.center h1 {
@@ -190,8 +201,8 @@ div.bord img{
 
 div.center a:hover {
     background: none;
-    color: rgb(101, 233, 101);
-    border: 2px solid rgb(101, 233, 101);
+    color: #14bf98;
+    border: 2px solid #14bf98;
 }
 .gree{
     color: lightgreen;
@@ -210,10 +221,29 @@ div.h2 h2{
     margin: 0;
 }
 div.pic img{
+    
+    border-radius: 10px;
    width: 100%;
 }
 div.pic{
+    flex: 7;
     margin: 0px 100px;
     gap: 20px;
     display: flex;
+}
+a.detail{
+    margin-top: 20px;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    padding: 8px 26px;
+    background-color: #14bf98;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+}
+div.imagess{
+display: flex;
+}
+div.imagess1{
+    
 }
