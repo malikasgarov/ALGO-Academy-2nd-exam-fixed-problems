@@ -62,6 +62,7 @@ div.right{
     
 }
 div.right > a{
+
     margin: 0;
 }
 div.relativ{
@@ -282,12 +283,45 @@ a.detail{
 div.imagess{
 display: flex;
 }
-div.imagess1{
+span.imagess1{
     flex: 1;
 }
-div.imagess1 >img{
+span.imagess1 > img{
+    height: 100%;
+    flex: 1;
     width: 100%;
 }
 div.paragraf{
-
+    flex: 1;
+}
+div.imagesss{
+    display: flex;
+}
+div.paragraff{
+    margin-top: 23px;
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+}
+div.paragraff{
+}
+div.paragraff a:hover{
+    color: #14bf98;
+}
+div.paragraff a{
+    display: inline;
+    text-decoration: none;
+    color: gray;
+    font-size: larger;
+padding: 20px 25px;
+}
+div.paragraff a.busi{
+color: #14bf98;
+}
+div.imagesss1{
+    flex: 1;
+}
+div.imagesss img {
+    height: 100%;
+    width: 100%;
 }
