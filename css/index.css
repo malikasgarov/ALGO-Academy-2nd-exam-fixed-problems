@@ -6,6 +6,7 @@
     opacity: 0.2;
 }
 .ex{
+    display: inline-block;
     text-decoration: none;
 }
 
@@ -23,7 +24,6 @@ html {
     margin: 0;
 }
 div.relativ1{
-    display: inline;
 position: relative;
 }
 div.relativ1>img{
@@ -31,15 +31,17 @@ div.relativ1>img{
     width: 30px;
 }
 div.relativ1 i{
+    color: white;
     position: absolute;
-    top: 30%;
-    left: 40%;
-    translate: 0%, 50%;
-    transform: translate(-50% -50%);
+    top: 50%;
+    left: 50%;
+    translate: -50% -65%;
 }
 
 
 div.dropdown>a {
+    display: inline-block;
+    padding: 8px 8px;
     color: white;
 }
 
@@ -58,6 +60,8 @@ span.asa > p{
     opacity: 0.49;
 }
 div.right{
+    display: flex;
+    gap: 4px;
     /* margin-top: 6px; */
     
 }
